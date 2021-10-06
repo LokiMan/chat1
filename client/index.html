@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Chat</title>
+  <link rel='stylesheet' href='index.css'>
+  <script src='socket.io.min.js'></script>
+</head>
+<body>
+
+<div id='form1'>
+  <label for='chatName'>Name:</label><input id='chatName' type='text'>
+  <button id='chatEnter'>Enter</button>
+</div>
+
+<div id='form2'>
+
+<div id='userList'></div>
+<div id='chatOut'></div>
+<div id='chatIn'>
+  <label for='chatInput'>Message:</label><input id='chatInput' type='text'>
+  <button id='chatSend'>Send</button>
+</div>
+
+</div>
+
+<script src='chat.js'></script>
+</body>
+</html>

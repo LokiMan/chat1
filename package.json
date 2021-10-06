@@ -1,0 +1,28 @@
+{
+  "name": "chat1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "cross-env NODE_ENV=local nodemon server/index.js | pino-pretty -t",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.12",
+    "pino-pretty": "7.0.1",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cross-env": "7.0.3",
+    "express": "4.17.1",
+    "helmet": "4.6.0",
+    "pino": "6.13.3",
+    "redis": "3.1.2",
+    "socket.io": "4.2.0"
+  }
+}
